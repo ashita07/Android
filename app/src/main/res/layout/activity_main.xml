@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/Goodcolor">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="280dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="20dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/LemonChiffon">
+
+        <TextView
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:textColor="@color/Goodcolor"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technology Today"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:backgroundTint="@color/peachpuff"
+        android:textStyle="bold"
+        android:textColor="@color/Maroon"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:id="@+id/buttonTech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="know more"
+
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
